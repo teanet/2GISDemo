@@ -12,6 +12,7 @@
 		CEC6BAFD22252A9600EF2DC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEC6BAFB22252A9600EF2DC8 /* Main.storyboard */; };
 		CEC6BAFF22252A9800EF2DC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEC6BAFE22252A9800EF2DC8 /* Assets.xcassets */; };
 		CEC6BB0222252A9800EF2DC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEC6BB0022252A9800EF2DC8 /* LaunchScreen.storyboard */; };
+		CEC6BB0A22252B9600EF2DC8 /* Piter.gpx in Resources */ = {isa = PBXBuildFile; fileRef = CEC6BB0922252B9600EF2DC8 /* Piter.gpx */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		CEC6BAFE22252A9800EF2DC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEC6BB0122252A9800EF2DC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEC6BB0322252A9800EF2DC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEC6BB0922252B9600EF2DC8 /* Piter.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Piter.gpx; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		CEC6BAF622252A9600EF2DC8 /* Demo2GIS */ = {
 			isa = PBXGroup;
 			children = (
+				CEC6BB0922252B9600EF2DC8 /* Piter.gpx */,
 				CEC6BAF722252A9600EF2DC8 /* AppDelegate.swift */,
 				CEC6BAF922252A9600EF2DC8 /* ViewController.swift */,
 				CEC6BAFB22252A9600EF2DC8 /* Main.storyboard */,
@@ -124,6 +127,7 @@
 			files = (
 				CEC6BB0222252A9800EF2DC8 /* LaunchScreen.storyboard in Resources */,
 				CEC6BAFF22252A9800EF2DC8 /* Assets.xcassets in Resources */,
+				CEC6BB0A22252B9600EF2DC8 /* Piter.gpx in Resources */,
 				CEC6BAFD22252A9600EF2DC8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,10 +287,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 695938Y5Q8;
 				INFOPLIST_FILE = Demo2GIS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+					"$(FRAMEWORK_SEARCH_PATHS)",
+					"@loader_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = xyz.nazabore.Demo2GIS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -300,10 +308,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 695938Y5Q8;
 				INFOPLIST_FILE = Demo2GIS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+					"$(FRAMEWORK_SEARCH_PATHS)",
+					"@loader_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = xyz.nazabore.Demo2GIS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
